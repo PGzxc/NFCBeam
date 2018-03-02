@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edittext_beam_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要传输的文本"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="请将当前设备靠近其他NFC设备，别忘了触摸屏幕哦！"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/read_nfc_tag" />
+
+</LinearLayout>
